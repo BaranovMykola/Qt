@@ -6,6 +6,7 @@
 #include <QLineEdit>
 #include <QVBoxLayout>
 #include <QObject>
+#include <QFont>
 
 class MainWindow : public QWidget
 {

@@ -9,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout* format = new QVBoxLayout;
     format->addWidget(button);
     format->addWidget(field);
+    QFont font = field->font();
+    font.setBold(true);
+    field->setFont(font);
     setLayout(format);
     QObject::connect(button, &QPushButton::clicked, this, &MainWindow::changeButton);
 }
