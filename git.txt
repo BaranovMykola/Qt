@@ -1,1 +1,2 @@
 hello git
+adding new text
